@@ -19,7 +19,7 @@ if(!search.value) {
     console.log('Please enter a search')
 }
 
-fetch("http://localhost:3000/weather?address="+ search.value).then( (res)=>{
+fetch("/weather?address="+ search.value).then( (res)=>{
     res.json().then(data => {
     if(data.error)
         failure.textContent = "Error in address"
