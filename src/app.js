@@ -25,7 +25,7 @@ app.get('',(req, res)=>{
 })
 
 app.get('/license',(req, res)=>{
-    res.render('', "Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6Y29udGVudGtleWlkZW50aWZpZXIiOiJkNWE4MThjZi1jNTVjLTRmMjgtYjAyZS1mMWZiN2JjZjFiZDMiLCJuYmYiOjE2MjQ3MDg5NjMsImV4cCI6MTYyNDcxMjg2MywiaXNzIjoibXlJc3N1ZXIiLCJhdWQiOiJteUF1ZGllbmNlIn0.19cLFfKUUI8lIOC0wPAkKx9OJGrsrjP9k0TVLrBWTE8")
+    res.send("Bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6Y29udGVudGtleWlkZW50aWZpZXIiOiJkNWE4MThjZi1jNTVjLTRmMjgtYjAyZS1mMWZiN2JjZjFiZDMiLCJuYmYiOjE2MjQ3MDg5NjMsImV4cCI6MTYyNDcxMjg2MywiaXNzIjoibXlJc3N1ZXIiLCJhdWQiOiJteUF1ZGllbmNlIn0.19cLFfKUUI8lIOC0wPAkKx9OJGrsrjP9k0TVLrBWTE8")
 })
 
 app.get('/weather', (req, res)=>{
